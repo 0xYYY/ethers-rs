@@ -521,8 +521,7 @@ dependencies = [
 [[package]]
 name = "coins-bip32"
 version = "0.8.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b30a84aab436fcb256a2ab3c80663d8aec686e6bae12827bb05fef3e1e439c9f"
+source = "git+https://github.com/0xYYY/bitcoins-rs.git?branch=feat/wordlist-extend-lang#fc950fd974d9fb5f97cb3ad0b9acdf72d37b9f98"
 dependencies = [
  "bincode",
  "bs58",
@@ -540,8 +539,7 @@ dependencies = [
 [[package]]
 name = "coins-bip39"
 version = "0.8.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "efb68f3b6c3fee83828ecd8d463f360a397c32aaeb35bd931c01e5ddf5631c69"
+source = "git+https://github.com/0xYYY/bitcoins-rs.git?branch=feat/wordlist-extend-lang#fc950fd974d9fb5f97cb3ad0b9acdf72d37b9f98"
 dependencies = [
  "bitvec 0.17.4",
  "coins-bip32",
@@ -559,8 +557,7 @@ dependencies = [
 [[package]]
 name = "coins-core"
 version = "0.8.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b949a1c63fb7eb591eb7ba438746326aedf0ae843e51ec92ba6bec5bb382c4f"
+source = "git+https://github.com/0xYYY/bitcoins-rs.git?branch=feat/wordlist-extend-lang#fc950fd974d9fb5f97cb3ad0b9acdf72d37b9f98"
 dependencies = [
  "base64 0.21.0",
  "bech32",
